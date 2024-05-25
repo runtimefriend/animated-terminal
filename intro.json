@@ -1,0 +1,88 @@
+[
+    { 
+        "action" : "user" ,
+        "value" : "runtimefriends@ubuntu"
+    } , { 
+        "action" : "user" ,
+        "value" : "runtimefriends@ubuntu"
+    } , {
+        "action": "type",
+        "value" : "apt install runtime_friends"
+    } , {
+        "action": "command",
+        "value" : "enter"
+    } , {
+        "action": "print",
+        "value" : [
+            "<err>E:</err> Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)" ,
+            "<err>E:</err> Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?\n"
+            ]
+    } , {
+        "action": "command",
+        "value" : "enter"
+    } , { 
+        "action" : "user"
+    } , {
+        "action": "print",
+        "value" : "apt install runtime_friends"
+    } , {
+        "action": "command",
+        "value" : "left",
+        "index" : -27
+    } , {
+        "action": "type",
+        "value" : "sudo "
+    } , {
+        "action": "command",
+        "value" : "enter"
+    } , {
+        "action": "print",
+        "value" : "[sudo] password for runtime: "
+    } , {
+        "action": "wait",
+        "value" : "2000"
+    } , {
+        "action": "command",
+        "value" : "enter"
+    } , {
+        "action": "print",
+        "value" : [
+            "Reading package lists... Done" ,
+            "Building dependency tree... Done" ,
+            "Reading state information... Done" ,
+            "<err>E:</err> Unable to locate package runtime_friends\n"
+            ]
+    } , { 
+        "action" : "user"
+    } , {
+        "action": "print",
+        "value" : "apt install runtime_friends"
+    } , {
+        "action": "command",
+        "value" : "left",
+        "index" : -7
+    } , {
+        "action": "command",
+        "value" : "back"
+    } , {
+        "action": "command",
+        "value" : "enter"
+    } , {
+        "action" : "print" ,
+        "value" : ""
+    } , {
+        "action" : "print" ,
+        "value" : [
+            "  ____   _   _  _   _  _____   ___   __  __  _____ ",
+            " |  _ \\ | | | || \\ | ||_   _| |_ _| |  \\/  || ____|",
+            " | |_) || | | ||  \\| |  | |    | |  | |\\/| ||  _|  ",
+            " |  _ < | |_| || |\\  |  | |    | |  | |  | || |___ ",
+            " |_|_\\_\\ \\___/ |_|_\\_|__|_| _ |___| |_|__|_||_____|",
+            " |  ___||  _ \\  |_ _| | ____|| \\ | | |  _ \\ / ___| ",
+            " | |_   | |_) |  | |  |  _|  |  \\| | | | | |\\___ \\ ",
+            " |  _|  |  _ <   | |  | |___ | |\\  | | |_| | ___) |",
+            " |_|    |_| \\_\\ |___| |_____||_| \\_| |____/ |____/ ",
+            ""
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ubuntu Terminal</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main id="container">
+      <div id="terminal">
+        <!-- Terminal Bar -->
+        <section id="terminal__bar">
+          <div id="bar__buttons">
+            <button class="bar__button" id="bar__button--exit">&#10005;</button>
+            <button class="bar__button">&#9472;</button>
+            <button class="bar__button">&#9723;</button>
+          </div>
+          <p id="bar__user">runtimefriends@ubuntu:~</p>
+        </section>
+        <!-- Terminal Body -->
+        <section id="terminal__body">
+          <div id="terminal__prompt">
+            <!--<span id="terminal__prompt--user" class="pl-1">runtimefriends@ubuntu:</span>
+            <span id="terminal__prompt--location">~</span>
+            <span id="terminal__prompt--bling">$</span>-->
+            <div id="terminal__input" class='pl-1 break-all inline-block w-full'></div>
+            <!--<div id="terminal__prompt--cursor"></div>-->
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
