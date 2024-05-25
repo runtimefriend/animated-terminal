@@ -2,9 +2,6 @@
     { 
         "action" : "user" ,
         "value" : "runtimefriends@ubuntu"
-    } , { 
-        "action" : "user" ,
-        "value" : "runtimefriends@ubuntu"
     } , {
         "action": "type",
         "value" : "apt install runtime_friends"
@@ -15,7 +12,7 @@
         "action": "print",
         "value" : [
             "<err>E:</err> Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)" ,
-            "<err>E:</err> Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?\n"
+            "<err>E:</err> Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?"
             ]
     } , {
         "action": "command",
@@ -51,7 +48,8 @@
             "Building dependency tree... Done" ,
             "Reading state information... Done" ,
             "<err>E:</err> Unable to locate package runtime_friends\n"
-            ]
+            ] ,
+        "speed" : "0.5"
     } , { 
         "action" : "user"
     } , {
@@ -60,7 +58,8 @@
     } , {
         "action": "command",
         "value" : "left",
-        "index" : -7
+        "index" : -7 ,
+        "speed" : "0.5"
     } , {
         "action": "command",
         "value" : "back"
@@ -83,6 +82,7 @@
             " |  _|  |  _ <   | |  | |___ | |\\  | | |_| | ___) |",
             " |_|    |_| \\_\\ |___| |_____||_| \\_| |____/ |____/ ",
             ""
-        ]
+        ] ,
+        "speed" : "5"
     }
 ]
