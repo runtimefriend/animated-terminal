@@ -33,7 +33,7 @@ loc {
 }
 
 #terminal__input {
-  white-space-collapse: break-spaces;
+  white-space:pre;
   color: white;
   text-wrap: wrap;
   overflow-y: scroll;
